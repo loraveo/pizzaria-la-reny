@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cardápio | La Reny</title>
+    <link rel="icon" type="image/png" href="imagens/logo-lareny-sfundo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img src="imagens/logo-lareny-sfundo.png" alt="Logo La Reny">
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+        <a href="cardapio.html" class="ativo"><i class="fa-solid fa-utensils"></i> Cardápio</a>
+        <a href="pagamento.html"><i class="fa-solid fa-bag-shopping"></i> Pedido</a>
+        <a href="sobre.html"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+        <a href="contato.html"><i class="fa-solid fa-phone"></i> Contato</a>
+    </nav>
+    <div class="Usuario"><a href="login.html">Entrar</a></div>
+</header>
+<main class="pagina">
+    <h1>Cardápio</h1>
+    <p class="nota">Pizzas salgadas em três tamanhos: pequena (35cm), média (40cm) e grande (45cm)</p>
+    <p class="nota">Pizzas doces: 25cm</p>
+    <div class="atalhos">
+        <a href="#salgadas">Pizzas salgadas</a><a href="#doces">Pizzas doces</a><a href="#hamburgueres">Hambúrgueres</a><a href="#bebidas">Bebidas</a><a href="#combos">Combos</a>
+    </div>
+
+    <h2 id="salgadas">Pizzas salgadas</h2>
+    <div class="grade">
+        <article class="cartao"><img src="imagens/pizza-calabresa.jpg" alt="Pizza Calabresa"><div><h3>Calabresa</h3><p>Mussarela, calabresa fatiada e cebola.</p><p class="preco">P R$50 | M R$55 | G R$65</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-frangocatupiry.jpg" alt="Pizza Frango com catupiry"><div><h3>Frango com catupiry</h3><p>Frango desfiado coberto com catupiry.</p><p class="preco">P R$57 | M R$67 | G R$75</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-mussarela.avif" alt="Pizza Mussarela"><div><h3>Mussarela</h3><p>Molho de tomate, mussarela e orégano.</p><p class="preco">P R$50 | M R$55 | G R$65</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-marguerita.jpg" alt="Pizza Marguerita"><div><h3>Marguerita</h3><p>Mussarela, tomate fatiado e manjericão.</p><p class="preco">P R$50 | M R$55 | G R$65</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-quatroqueijos.avif" alt="Pizza Quatro queijos"><div><h3>Quatro queijos</h3><p>Mussarela, provolone, parmesão e catupiry.</p><p class="preco">P R$50 | M R$55 | G R$65</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-alhofrito.jpg" alt="Pizza Alho frito"><div><h3>Alho frito</h3><p>Mussarela com alho frito dourado.</p><p class="preco">P R$50 | M R$55 | G R$65</p></div></article>
+    </div>
+
+    <h2 id="doces">Pizzas doces</h2>
+    <div class="grade">
+        <article class="cartao"><img src="imagens/pizza-bananacanela.jpg" alt="Pizza Banana com canela"><div><span class="topo"><h3>Banana com canela</h3><b>R$24</b></span><p>Banana, leite condensado e canela.</p></div></article>
+        <article class="cartao"><img src="imagens/pizza-confete.jpg" alt="Pizza Confete"><div><span class="topo"><h3>Confete</h3><b>R$24</b></span><p>Chocolate ao leite com confeitos coloridos.</p></div></article>
+    </div>
+
+    <h2 id="hamburgueres">Hambúrgueres</h2>
+    <div class="grade">
+        <article class="cartao"><img src="imagens/h-classico.jpg" alt="classico"><div><span class="topo"><h3>Clássico</h3><b> R$28,00</b></span><p>Hambúrguer 150g, queijo, alface e tomate.</p></div></article>
+        <article class="cartao"><img src="imagens/h-bacon.jpeg" alt="bacon"><div><span class="topo"><h3>Bacon</h3><b> R$34,00</b></span><p>Hambúrguer 150 g, queijo, bacon e molho da casa.</p></div></article>
+        <article class="cartao"><img src="imagens/h-duplo.jpg" alt="duplo"><div><span class="topo"><h3>Duplo</h3><b> R$39,00</b></span><p>Dois hambúrgueres, queijo duplo e cebola caramelizada.</p></div></article>
+    </div>
+
+    <h2 id="bebidas">Bebidas</h2>
+    <div class="grade">
+        <article class="cartao"><img src="imagens/coca2l.jpg" alt="refri2L"><div><span class="topo"><h3>Refrigerante 2L</h3><b>R$14,00</b></span></div></article>
+        <article class="cartao"><img src="imagens/cocaml.jpg" alt="refri lata"><div><span class="topo"><h3>Refrigerante Lata 350ml</h3><b>R$7,00</b></span></div></article>
+        <article class="cartao"><img src="imagens/guaravita.jfif" alt="suco"><div><span class="topo"><h3>Guaravita 290ml</h3><b>R$3,50</b></span></div></article>
+    </div>
+    
+    <h2 id="combos">Combos</h2>
+    <div class="grade">
+    <article class="cartao"><img src="imagens/pizzarefri.jfif" alt="Pizza e refri"><div><span class="topo"><h3>Combo Pizza</h3><b>R$70</b></span><p>Pizza de 40cm + refrigerante de 2L</p></div></article>
+    <article class="cartao"><img src="imagens/hambatrefri.jfif" alt="combo hamburguer"><div><span class="topo"><h3>Combo Hamburguer</h3><b>R$50</b></span><p>Hamburguer artesanal, batata-frita e refrigerante de lata.</p></div></article>
+    <article class="cartao"><img src="imagens/caixapetisco.jfif" alt="caixa petisco"><div><span class="topo"><h3>Caixa de Petisco</h3><b>R$60</b></span><p>Linguiça calabresa, cebola empanada e batata-frita.</p></div></article>
+    </div>
+
+    <div class="centro"><a href="pagamento.html" class="bt bt-verde"><i class="fa-solid fa-bag-shopping"></i> Finalizar pedido</a></div>
+</main>
+<footer id="contato">
+    <p>La Reny Pizzaria & Hamburgueria </p><p> Rua Itália D'incau, em frente ao número 77 - Piedade, Rio de Janeiro · Quarta à Domingo, 18:30 às 00:00</p>
+    <p style="margin-top:6px"><a href="https://www.instagram.com/larenyrj" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> larenyrj</a> · <i class="fa-brands fa-whatsapp"></i> (21) 99134-4483</p>
+</footer>
+</body>
+</html>

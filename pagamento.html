@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pagamento | La Reny</title>
+    <link rel="icon" type="image/png" href="imagens/logo-lareny-sfundo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <img src="imagens/logo-lareny-sfundo.png" alt="Logo La Reny">
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+        <a href="cardapio.html"><i class="fa-solid fa-utensils"></i> Cardápio</a>
+        <a href="pagamento.html" class="ativo"><i class="fa-solid fa-bag-shopping"></i> Pedido</a>
+        <a href="sobre.html"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+        <a href="contato.html"><i class="fa-solid fa-phone"></i> Contato</a>
+    </nav>
+    <div class="Usuario"><a href="login.html">Entrar</a></div>
+</header>
+<main class="pagina">
+    <h1>Finalizar pedido</h1>
+    <form action="#" method="post" style="margin-top:24px">
+            <section class="painel">
+            <h2>Seus dados</h2>
+            <label for="nome">Nome</label><input type="text" id="nome" required>
+            <label for="tel">Telefone</label><input type="tel" id="tel" placeholder="(21) 99999-9999" required>
+            <div class="opcoes">
+                <label><input type="radio" name="tipo" value="entrega" checked> Entrega</label>
+                <label><input type="radio" name="tipo" value="retirada"> Retirar no balcão</label>
+            </div>
+            <label for="end">Endereço (somente para entrega)</label><input type="text" id="end" placeholder="Rua, número, complemento, bairro">
+        </section>
+
+        <section class="painel">
+            <h2>Forma de pagamento</h2>
+            <div class="opcoes">
+                <label><input type="radio" name="pgto" value="pix" checked><i class="fa-brands fa-pix"></i> Pix</label>
+                <label><input type="radio" name="pgto" value="credito"><i class="fa-regular fa-credit-card"></i> Crédito</label>
+                <label><input type="radio" name="pgto" value="debito"><i class="fa-solid fa-credit-card"></i> Débito</label>
+                <label><input type="radio" name="pgto" value="dinheiro"><i class="fa-solid fa-money-bill-wave"></i> Dinheiro</label>
+            </div>
+            <label for="troco">Troco para quanto? (somente dinheiro)</label>
+            <input type="number" id="troco" min="0" step="0.01" placeholder="Ex.: 100">
+            <label for="cupom">Cupom de desconto</label>
+            <input type="text" id="cupom">
+            <div class="resumo">
+                <p><span>Taxa de entrega</span><span>R$ 6,00</span></p>
+                <p class="total"><span>Total</span><span>Confirmado por WhatsApp</span></p>
+            </div>
+        </section>
+        <button type="submit" class="bt bt-verde"><i class="fa-solid fa-check"></i> Confirmar pedido</button>
+    </form>
+</main>
+<footer id="contato">
+    <p>La Reny Pizzaria & Hamburgueria </p><p> Rua Itália D'incau, em frente ao número 77 - Piedade, Rio de Janeiro · Quarta à Domingo, 18:30 às 00:00</p>
+    <p style="margin-top:6px"><a href="https://www.instagram.com/larenyrj" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> larenyrj</a> · <i class="fa-brands fa-whatsapp"></i> (21) 99134-4483</p>
+</footer>
+</body>
+</html>

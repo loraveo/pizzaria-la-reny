@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Entrar | La Reny</title>
+    <link rel="icon" type="image/png" href="imagens/logo-lareny-sfundo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <img src="imagens/logo-lareny-sfundo.png" alt="Logo La Reny">
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+        <a href="cardapio.html"><i class="fa-solid fa-utensils"></i> Cardápio</a>
+        <a href="pagamento.html"><i class="fa-solid fa-bag-shopping"></i> Pedido</a>
+        <a href="sobre.html"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+        <a href="contato.html"><i class="fa-solid fa-phone"></i> Contato</a>
+    </nav>
+    <div class="Usuario"><a href="login.html">Entrar</a></div>
+</header>
+<main class="pagina">
+    <h1>Minha conta</h1>
+
+    <div class="conta">
+        <section class="painel">
+            <details name="modo" open>
+                <summary><h2>Fazer Login</h2></summary>
+                <div>
+                    <label for="email-login">Email</label>
+                    <input type="email" id="email-login" placeholder="seu@email.com">
+                    <label for="senha-login">Senha</label>
+                    <input type="password" id="senha-login">
+                    <p class="nota"><a href="#">Esqueci minha senha</a></p>
+                    <button type="button" class="bt bt-verde"><i class="fa-solid fa-right-to-bracket"></i> Entrar</button>
+                </div>
+            </details>
+        </section>
+
+        <section class="painel">
+            <details name="modo">
+                <summary><h2>Criar conta</h2></summary>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                    <label for="tel">Telefone</label>
+                    <input type="tel" id="tel" placeholder="(21) 99999-9999">
+                    <label for="email-cad">Email</label>
+                    <input type="email" id="email-cad" placeholder="seu@email.com">
+                    <label for="senha-cad">Senha (mínimo 6 caracteres)</label>
+                    <input type="password" id="senha-cad">
+                    <button type="button" class="bt bt-verde"><i class="fa-solid fa-user-plus"></i> Cadastrar</button>
+                </div>
+            </details>
+        </section>
+    </div>
+</main>
+<footer id="contato">
+    <p>La Reny Pizzaria & Hamburgueria </p><p> Rua Itália D'incau, em frente ao número 77 - Piedade, Rio de Janeiro · Quarta à Domingo, 18:30 às 00:00</p>
+    <p style="margin-top:6px"><a href="https://www.instagram.com/larenyrj" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> larenyrj</a> · <i class="fa-brands fa-whatsapp"></i> (21) 99134-4483</p>
+</footer>
+</body>
+</html>
